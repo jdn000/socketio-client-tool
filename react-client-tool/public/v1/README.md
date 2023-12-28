@@ -12,7 +12,7 @@ If you would like to run this tool as a container using [Docker](https://www.doc
 1. Run the container
 
     ```bash
-    docker run --rm -p 8080:8080 amritb/socketio-client-tool:latest
+    docker run --rm -p 3000:3000 amritb/socketio-client-tool:latest
     ```
 
 #### Command Line

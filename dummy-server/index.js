@@ -5,7 +5,7 @@ var io = require('socket.io')(server, {
   }
 });
 
-console.log('Socket-io server running on 8080.');
+console.log('Socket-io server running on 3000.');
 console.log('Emit to "socketio-client" or "socketio-client-ack" for debugging.');
 
 io.on('connection', function (socket) {
@@ -20,4 +20,4 @@ io.on('connection', function (socket) {
   });
 });
 
-server.listen(8080);
+server.listen(3000);

@@ -21,7 +21,7 @@ function App() {
   const [connData, setConnData] = useState({
     connected: false,
     loading: false,
-    server: 'http://localhost:8080',
+    server: 'http://localhost:3000',
     config: '{"path": "/socket.io", "forceNew": true, "reconnectionAttempts": 3, "timeout": 2000}',
     errors: []
   });
